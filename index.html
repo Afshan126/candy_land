@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Candy Land</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav
+        class="navbar navbar-white navbar-danger fixed-top navbar-expand-lg fs-3 d.grid"
+      >
+        <div class="container-fluid">
+          <a
+            class="text-white navbar-brand fs-1 col-6 fw-bolder display-1 px-5"
+            href="#"
+            > <span><img src="imgs/lolli_icon.png" alt="" class="img-logo">CANDY LAND</span> </a
+          >
+          <button
+            class="navbar-toggler text-white nav-btn"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
+            </svg>
+          </button>
+          <div
+            class="collapse navbar-collapse col-6 justify-content-end px-5"
+            id="navbarSupportedContent"
+          >
+            <ul class="navbar-nav fw-bold">
+              <li class="nav-item p-4 pt-2 pb-2">
+                <a class="nav-link text-white" aria-current="page" href="#"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item p-4 pt-2 pb-2">
+                <a class="nav-link text-white" href="#about">About</a>
+              </li>
+              <li class="nav-item p-4 pt-2 pb-2">
+                <a class="nav-link text-white" href="#products">Products</a>
+              </li>
+              <li class="nav-item p-4 pt-2 pb-2">
+                <a class="nav-link text-white" href="#events">Events</a>
+              </li>
+              <li class="nav-item p-4 pt-2 pb-2">
+                <a class="nav-link text-white" href="#contact-details">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="main">
+      <section class="home container-fluid d-grid" id="home">
+        <div class="row">
+          <div
+            class="col-md-6 d-flex flex-column justify-content-center align-items-center container text-white"
+          >
+            <h1 class="h1 m-2 mt-4 text-capitalize text-center 
+            mb-sm-1 mb-md-2">
+              <span class="text-info">/</span
+              ><span class="text-danger">candy</span> makes
+              <span class="text-info">life</span>
+              <span class="text-color">better</span>
+              <span class="text-info">/</span>
+            </h1>
+            <img src="imgs/lolli_icon.png" alt="lolipop-icon" class="img-logo"/>
+            <figure>
+              <blockquote class="blockquote pt-2 fs-4 text-center lh-lg">
+                Who can take a rainbow, wrap it in a sigh <br />
+                Soak it in the sun and make a strawberry–lemon pie <br />
+                The candy man can 'cause he mixes it with love <br />
+                And makes the world taste good
+              </blockquote>
+              <figcaption
+                class="blockquote-footer text-white text-end mt-3 fs-4"
+              >
+                Roald Dahl
+              </figcaption>
+            </figure>
+            <div class="d-flex">
+              <form action="#cta">
+                <input
+                  type="submit"
+                  class="btn btn-sam btn-lg text-light fs-2 p-3 m-3 bg-gradient text-capitalize" value="get sample"
+                >
+              </form>
+              <form action="#cta">
+                <input
+                  type="submit"
+                  class="btn btn-info btn-lg text-light fs-2 p-3 m-3 bg-gradient text-capitalize" value="our stores"
+                >
+              </form>
+              
+            </div>
+          </div>
+          <div class="col-md-6 mx-auto mt-md-0">
+            <img
+              src="imgs/sharon-mccutcheon-8XkNFQG_cgk-unsplash.jpg"
+              alt="candy hearts "
+              class="img-hero "
+            />
+          </div>
+        </div>
+      </section>
+      <section class="about container-fluid d-grid  px-xs-3" id="about">
+        <div class="row">
+          <div
+            class="col-xl-6 col-md-8 d-flex container flex-column text-white"
+          >
+            <div class="about-div">
+              <h2 class="fw-bold mb-5 text-center text-capitalize">
+                we beleive
+              </h2>
+              <p class="fs-4 lh-lg text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Necessitatibus, recusandae magni nisi expedita assumenda iure
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem
+                blanditiis quae dicta doloribus beatae odio. Numquam aliquam
+                error ipsam quasi consectetur, quia natus unde omnis rerum nemo
+                est excepturi. Expedita? animi id autem ullam. Perferendis cum
+                molestias minima obcaecati est? Lorem ipsum dolor, sit amet
+                consectetur adipisicing elit. Atque, aspernatur sed! Soluta,
+                maxime sit unde debitis eius molestias sed ullam? Mollitia
+                eligendi quo quod perferendis labore nihil voluptates iusto
+                dolor.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="products container-fluid p-5 my-3" id="products">
+        <h2 class="p-3 m-2 text-center">Our Products</h2>
+        <div class="card-group p-3 d-grid">
+          <div class="row">
+            <div class="col-sm-6 col-xl-3 ">
+          <div class="card m-4 bg-card p-3 ">
+            <img
+              src="imgs/rae-wallis-gOyJlO56j-Y-unsplash1.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title text-center text-capitalize fs-2 fw-bold">
+                Choclates
+              </h3>
+              <p class="card-text">
+                <ul class="list-unstyled text-center text-capitalize fs-4 lh-lg text-white">
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span> custoisable</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>bars,gift boxes,single pieces</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>faovour of your choice</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>size and weight</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10005;</span>pack of 10's</li>                 
+                </ul>
+              </p>
+              <p class="card-text">
+                <form action="#cta">
+                <input
+                  type="submit"
+                  class="btn bg-info bg-gradient border btn-lg text-light d-grid col-6 mx-auto fs-3" value="get sample"
+                >
+              </form>
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+          <div class="card m-4 bg-card p-3 ">
+            <img
+              src="imgs/towfiqu-barbhuiya-33taMhUiF0I-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title text-center text-capitalize fs-2 fw-bold">chewys</h3>
+              <p class="card-text">
+                <ul class="list-unstyled text-center text-capitalize fs-4 lh-lg text-white">
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span> custoisable</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>bars,gift boxes,single pieces</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>faovour of your choice</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>size and weight</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10005;</span>pack of 10's</li>                 
+                </ul>
+              </p>
+              <p class="card-text">
+                <form action="#cta">
+                  <input
+                    type="submit"
+                    class="btn bg-info bg-gradient border btn-lg text-light d-grid col-6 mx-auto fs-3" value="get sample"
+                  >
+                </form>
+              </p>
+            </div>
+          </div>
+          </div>
+          <div class="col-sm-6 col-xl-3">
+          <div class="card m-4 bg-card p-3 ">
+            <img
+              src="imgs/jacqueline-brandwayn-FYNs98upHrA-unsplash2.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title text-center text-capitalize fs-2 fw-bold">Candy</h3>
+              <p class="card-text">
+                <ul class="list-unstyled text-center text-capitalize fs-4 lh-lg text-white">
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span> custoisable</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>bars,gift boxes,single pieces</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>faovour of your choice</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>size and weight</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10005;</span>pack of 10's</li>                 
+                </ul>
+              </p>
+              <p class="card-text">
+                <form action="#cta">
+                  <input
+                    type="submit"
+                    class="btn bg-info bg-gradient border btn-lg text-light d-grid col-6 mx-auto fs-3" value="get sample"
+                  >
+                </form>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-xl-3">
+          <div class="card m-4 bg-card p-3 ">
+            <img
+              src="imgs/daria-gordova-51nK1YTm-zI-unsplash.jpg"
+              class="card-img-top"
+              alt="..."
+            />
+            <div class="card-body">
+              <h3 class="card-title text-center text-capitalize fs-2 fw-bold">lolli sets</h3>
+              <p class="card-text">
+                <ul class="list-unstyled text-center text-capitalize fs-4 lh-lg text-white">
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>custoisable</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>bars,gift boxes,single pieces</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>faovour of your choice</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10005;</span>size and weight</li>
+                  <li><span class="text-danger fw-bolder fs-3 px-2">&#10003;</span>pack of 10's</li>                 
+                </ul>
+              </p>
+              <p class="card-text">
+                <form action="#cta">
+                  <input
+                    type="submit"
+                    class="btn bg-info bg-gradient border btn-lg text-light d-grid col-6 mx-auto fs-3" value="get sample"
+                  >
+                </form>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+      </section>
+      <section class="events container-fluid d-grid justify-content-center align-items-center " id="events">
+        <h2 class="fw-bold mb-5 text-center text-capitalize">events</h2>
+          <div class="row p-5 m-5 row-in">
+            <div class="col-sm-10 col-lg-6 px-5 d-flex flex-column justify-content-center align-items-center container text-white">
+              <h3 class="h1 m-2 mt-4 text-capitalize text-center 
+              mb-sm-1 mb-md-2 "><span class="text-info">/</span> <span class="text-danger">carnival events</span> <span class="text-info">/</span></h3>
+              <img src="imgs/lolli_icon.png" alt="lolipop-icon" class="img-logo"/>
+              <p class=" pt-2 fs-4 text-center lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nihil, molestias officiis nam eaque accusamus reiciendis expedita veniam repudiandae repellendus, eos unde vero? Blanditiis, consequatur fuga rerum vitae saepe sed?
+              Expedita, delectus consequuntur distinctio totam maxime pariatur doloribus odio inventore cumque, possimus architecto corrupti officia, quia voluptas id at vero. Consequuntur deleniti perspiciatis fugiat quas asperiores, nesciunt quasi voluptatem earum!</p>
+            </div>
+            <div class="col-lg-6 p-4 d-grid ">
+              <div class="row mb-4 justify-content-evenly">
+                <div class="col-6  gallery_item">
+                <img src="imgs/viktor-talashuk-BvFNArgW7EQ-unsplash.jpg"
+                alt=""
+                class="gallery_img">
+                </div>
+                <div class="col-6  gallery_item">
+                  <img src="imgs/towfiqu-barbhuiya-33taMhUiF0I-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+              </div>
+              <div class="row justify-content-evenly">
+                <div class="col-6 gallery_item">
+                  <img src="imgs/ticka-kao-o87vASD6Ksk-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+                <div class="col-6  gallery_item">
+                  <img src="imgs/thalia-ruiz-Y6z5sGI_Xac-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+              </div>
+            </div>          
+          </div>
+          <div class="row p-5 m-5 row-in">
+            <div class=" col-lg-6 p-4 d-grid order-last order-lg-first">
+              <div class="row mb-4 justify-content-evenly">
+                <div class="col-6  gallery_item">
+                  <img src="imgs/viktor-talashuk-BvFNArgW7EQ-unsplash.jpg" 
+                  alt=""
+                  class="gallery_img">
+                </div>
+                <div class="col-6  gallery_item">
+                  <img src="imgs/towfiqu-barbhuiya-33taMhUiF0I-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+              </div>
+              <div class="row justify-content-evenly">
+                <div class="col-6  gallery_item">
+                  <img src="imgs/ticka-kao-o87vASD6Ksk-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+                <div class="col-6  gallery_item">
+                  <img src="imgs/thalia-ruiz-Y6z5sGI_Xac-unsplash.jpg" alt=""
+                  class="gallery_img">
+                </div>
+              </div>
+            </div>     
+            <div class="col-sm-10 col-lg-6 d-flex flex-column justify-content-center align-items-center container text-white ">
+              <h3 class="h1 m-2 mt-4 text-capitalize text-center 
+              mb-sm-1 mb-md-2"><span class="text-info">/</span> <span class="text-danger">personalised events</span> <span class="text-info">/</span></h3>
+              <img src="imgs/lolli_icon.png" alt="lolipop-icon" class="img-logo"/>
+              <p class=" pt-2 fs-4 text-center lh-lg">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis nihil, molestias officiis nam eaque accusamus reiciendis expedita veniam repudiandae repellendus, eos unde vero? Blanditiis, consequatur fuga rerum vitae saepe sed?
+              Expedita, delectus consequuntur distinctio totam maxime pariatur doloribus odio inventore cumque, possimus architecto corrupti officia, quia voluptas id at vero. Consequuntur deleniti perspiciatis fugiat quas asperiores, nesciunt quasi voluptatem earum!</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="cta container-fluid d-grid" id="cta">
+        <div class="row">
+            <div class="col-sm-10 col-md-6 col-lg-5 p-4 mx-auto form-2 rounded-3">
+            <h3 class="text-capitalize text-center py-4">get your sample</h3>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label fs-3 text-white fw-bold">Name</label>
+              <input type="text" class="form-control py-2 fs-3 rounded bg-info placeholder bg-gradient text-white" id="formGroupExampleInput" placeholder="Enter your name">
+            </div>
+            <div class="d-grid mx-auto">
+              <div class="row">
+            <div class=" col-6 mb-3">
+              <label for="formGroupExampleInput2" class="form-label fs-3 text-white fw-bold">Phone</label>
+              <input type="text" class="form-control pe-5 py-2 fs-3 rounded placeholder bg-info bg-gradient text-white" id="formGroupExampleInput2" placeholder="Enter your Phone number">
+            </div>
+            <div class="col-6 mb-3">
+              <label for="formGroupExampleInput3" class="form-label fs-3 text-white fw-bold">Email</label>
+              <input type="email" class="form-control pe-5 py-2 fs-3 rounded placeholder bg-info bg-gradient text-white" id="formGroupExampleInput3" placeholder="Enter your email">
+            </div>
+          </div>
+          </div>
+          <div class="d-grid">
+            <div class="row">
+            <div class="col-6 mb-3">
+              <label class="form-label fs-3 text-white fw-bold" for="inputGroupSelect02">Choose product</label>
+                <select class="form-select placeholder pe-5 me-4 py-2 fs-3 rounded  bg-info bg-gradient text-white" id="inputGroupSelect02">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+            </div>
+            <div class="col-6 mb-3">
+              <label class="form-label fs-3 text-white fw-bold" for="inputGroupSelect03">Choose flavour</label>
+                <select class="form-select placeholder pe-5 py-2 me-4 fs-3 rounded  bg-info bg-gradient text-white" id="inputGroupSelect03">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+            </div>
+          </div>
+          </div>
+          <div class="mb-3">
+            <label for="formGroupExampleInput6" class="form-label fs-3 text-white fw-bold">Address</label>
+            <input type="text" class="form-control pe-5 py-2 fs-3 rounded placeholder bg-info bg-gradient text-white" id="formGroupExampleInput6" placeholder="Enter your address">
+          </div>
+          <form action="#home">
+            <input type="submit" class="btn btn-sub bg-gradient btn-lg text-light d-grid col-6 mx-auto py-4 text-capitalize fs-3 " value="get your sample!">
+          </form>
+          </div>
+          <div class="col-sm-10 col-md-6 col-lg-5 p-4 mx-auto rounded-3 form-2">
+            <h3 class="text-capitalize text-center py-4">get Events info</h3>
+            <div class="mb-3">
+              <label for="formGroupExampleInput" class="form-label fs-3 text-white fw-bold">Name</label>
+              <input type="text" class="form-control py-2 fs-3 rounded placeholder bg-info text-white" id="formGroupExampleInput" placeholder="Enter your name">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput2" class="form-label fs-3 text-white fw-bold">Phone</label>
+              <input type="text" class="form-control py-2 fs-3 rounded placeholder bg-info text-white" id="formGroupExampleInput2" placeholder="Enter your Phone number">
+            </div>
+            <div class="mb-3">
+              <label for="formGroupExampleInput3" class="form-label fs-3 text-white fw-bold">Email</label>
+              <input type="email" class="form-control py-2 fs-3 rounded placeholder bg-info text-white" id="formGroupExampleInput3" placeholder="Enter your email">
+            </div>
+            <div class=" mb-3">
+              <label class="form-label fs-3 text-white fw-bold" for="inputGroupSelect01">Location</label>
+                <select class="form-select py-2 fs-3 rounded placeholder bg-info text-white" id="inputGroupSelect01">
+                  <option selected>Choose...</option>
+                  <option value="1">One</option>
+                  <option value="2">Two</option>
+                  <option value="3">Three</option>
+                </select>
+            </div>
+          <form action="#home">
+            <input type="submit" class="btn btn-sub bg-gradient btn-lg text-light d-grid col-6 mx-auto py-4 text-capitalize fs-3 " value="get event info!">
+          </form>
+          </div>
+        </div>
+      </section>
+      <section class="contact container" id="contact-details">
+        <h2 class="text-capitalize py-3 my-3">contact us</h2>
+        <div class="d-grid">
+          <div class="row text-white">
+            <div class="col-sm-6 col-md-3">
+              <h3 class="fs-1 fw-bold text-capitalize my-3">Office address</h3>
+              <address class="fs-4 lh-md">
+                <span class="d-block">Lorem ipsum</span>  
+                <span class="d-block">dolor sit amet</span> 
+                <span class="d-block">consectetur adipisicing</span>
+                <span class="d-block">elit. Reprehenderit</span>
+                <span class="d-block">dolor sit amet</span> 
+              </address>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h3 class="fs-1 fw-bold text-capitalize my-3">warehouse address</h3>
+              <address class="fs-4 lh-md">
+                <span class="d-block">Lorem ipsum</span>  
+                <span class="d-block">dolor sit amet</span> 
+                <span class="d-block">consectetur adipisicing</span>
+                <span class="d-block">elit. Reprehenderit</span>
+                <span class="d-block">dolor sit amet</span> 
+              </address>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h3 class="fs-1 fw-bold text-capitalize my-3">social media</h3>
+              <div class="d-flex gap-5 mb-4">
+              <img src="imgs/facebook.png" alt="" class="sm-icon">
+              <img src="imgs/instagram.png" alt="" class="sm-icon">
+              <img src="imgs/whatsapp.png" alt="" class="sm-icon">
+            </div>
+            <div class="d-flex gap-5 mb-4">
+              <img src="imgs/youtube.png" alt="" class="sm-icon">
+              <img src="imgs/pinterest.png" alt="" class="sm-icon">
+              <img src="imgs/twitter.png" alt="" class="sm-icon">
+            </div>
+            </div>
+            <div class="col-sm-6 col-md-3">
+              <h3 class="fs-1 fw-bold text-capitalize my-3">event locations</h3>
+              <address class="fs-4 lh-md">
+                <span class="d-block">Lorem ipsum</span>  
+                <span class="d-block">dolor sit amet</span> 
+                <span class="d-block">consectetur adipisicing</span>
+                <span class="d-block">elit. Reprehenderit</span>
+                <span class="d-block">dolor sit amet</span> 
+                
+              </address>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer-copyright text-white bg-danger bg-gradient text-center py-3 fs-4">© 2022 Copyright:
+        <a class="text-decoration-none" href="#">CandyLand</a>
+      </div>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

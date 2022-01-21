@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+body {
+  background-color: #ffcece;
+  font-family: "Roboto", sans-serif;
+}
+nav {
+  background-color: #88f3f3bd;
+}
+.nav-link,
+.navbar-brand {
+  transition: all 0.2s ease;
+}
+.nav-link:hover,
+.navbar-brand:hover {
+  color: rgb(228, 83, 83) !important;
+  font-weight: lighter;
+  transform: translateY(-0.1rem);
+}
+main {
+  padding: 7rem 0 3rem 0;
+}
+section {
+  margin-bottom: 4.8rem;
+}
+img {
+  width: 100%;
+}
+.sm-icon {
+  height: 3.2rem;
+  width: 3.2rem;
+}
+.events .row-in {
+  background: linear-gradient(80deg, #e29494bd, rgba(207, 86, 86, 0.541));
+  box-shadow: 0.1rem 1rem 3rem #6cd8dbc4;
+  border-radius: 1rem;
+}
+.gallery_img {
+  border-radius: 0.9rem;
+  display: block;
+  height: 90%;
+  transition: all 0.5s;
+}
+.gallery_img:hover {
+  transform: scale(1.1);
+}
+.about {
+  background-image: linear-gradient(80deg, #ee9b9bd2, rgba(189, 66, 66, 0.692)),
+    url("imgs/laura-ockel-zAOBpEE_vV4-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  width: 99%;
+  padding: 4.8rem 6.4rem;
+}
+.form-2 {
+  transition: all 0.3s ease;
+}
+.form-2:hover {
+  transform: translateY(-0.3rem);
+  box-shadow: 0 0.5rem 3rem rgba(172, 98, 98, 0.512);
+}
+h2 {
+  font-size: 5.6rem;
+  color: rgba(199, 30, 72, 0.945);
+}
+.products h2,
+.contact h3,
+.cta h3 {
+  color: #167e81f1;
+}
+.cta h3 {
+  font-size: 3.6rem;
+}
+.btn-sam {
+  background-color: rgba(252, 68, 169, 0.705);
+}
+.btn {
+  border-radius: 0.9rem;
+  box-shadow: 0 1rem 2rem rgba(92, 94, 94, 0.349);
+  transition: all 0.2s ease;
+}
+.btn:hover {
+  box-shadow: 0 2rem 3rem rgba(0, 143, 148, 0.452);
+  background-color: rgb(10, 211, 218);
+  border: none !important;
+  transform: translateY(-0.1rem);
+}
+.btn-sub {
+  background-color: #9e1254d8;
+  margin: 3rem 0;
+  transition: all 0.3s ease;
+}
+.btn-sub:hover {
+  background-color: #9e1254d8;
+  transform: translate3d(1rem);
+}
+.card {
+  background-color: #f3b6b6ef;
+  box-shadow: 0 2rem 4rem rgba(160, 27, 60, 0.575);
+  border-radius: 7% !important;
+  border: 2px solid rgba(160, 1, 41, 0.151) !important;
+  transition: all 0.2s ease-in;
+}
+.card:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 2rem 4rem rgba(160, 27, 60, 0.575);
+}
+.card img {
+  border-radius: 7% !important;
+}
+.card-title {
+  color: rgba(60, 4, 71, 0.911);
+}
+::placeholder {
+  color: #fff !important;
+}
+@media (min-width: 65rem) {
+  .h1 {
+    font-size: 3.8rem;
+  }
+}
+.img-logo {
+  width: 5rem;
+}
+.text-color {
+  color: rgb(255, 102, 186);
+}
+@media (max-width: 62.5em) {
+  main {
+    padding-top: 8rem;
+  }
+  .img-hero {
+    margin-top: 3rem;
+  }
+  .h1 {
+    font-size: 2.8rem;
+    padding: 1rem;
+    margin: 1rem;
+  }
+}
